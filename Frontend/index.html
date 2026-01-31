@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Men's To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1> ketan's Task Manager</h1>
+
+  <form id="taskForm">
+    <input type="text" id="title" placeholder="Task Title" required />
+    <input type="text" id="description" placeholder="Description" />
+    <select id="status">
+      <option>Pending</option>
+      <option>In Progress</option>
+      <option>Completed</option>
+    </select>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <div id="taskList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
